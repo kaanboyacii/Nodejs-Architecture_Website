@@ -7,3 +7,6 @@ exports.getAboutPage = (req, res, next) => {
 exports.getProjectPage = (req, res, next) => {
     res.render('projects',{title: 'Projelerimiz'});
 }
+exports.getContactPage = (req, res, next) => {
+    res.render('contact',{title: 'İletişim'});
+}
