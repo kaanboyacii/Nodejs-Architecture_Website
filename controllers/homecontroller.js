@@ -1,3 +1,3 @@
 exports.getIndex = (req, res, next) => {
-    res.render('index',{title: 'Error ! Page Not Found'});
+    res.render('index',{title: 'HomePage'});
 }
