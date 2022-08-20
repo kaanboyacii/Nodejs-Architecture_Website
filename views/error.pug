@@ -1,0 +1,12 @@
+extends layouts/main-layout.pug
+block content 
+  .container-xxl.py-5.wow.fadeInUp(data-wow-delay='0.1s')
+    .container.text-center
+      .row.justify-content-center
+        .col-lg-6
+          i.bi.bi-exclamation-triangle.display-1.text-primary
+          h1.display-1 404
+          h1.mb-4 Sayfa Bulunamadı
+          p.mb-4
+            | Üzgünüz, aradığınız sayfa sitemizde yok! Belki ana sayfamıza gidin veya bir arama yapmayı deneyin?
+          a.btn.btn-primary.py-3.px-5(href='/anasayfa') Anasayfaya Dön
