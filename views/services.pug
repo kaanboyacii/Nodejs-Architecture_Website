@@ -1,3 +1,12 @@
 extends layouts/main-layout.pug
 block content 
+  .container-fluid.page-header.py-5.mb-5.wow.fadeIn(data-wow-delay='0.1s')
+    .container.py-5
+      h1.display-1.text-white.animated.slideInDown Servislerimiz
+      nav(aria-label='breadcrumb animated slideInDown')
+        ol.breadcrumb.text-uppercase.mb-0
+          li.breadcrumb-item
+            a.text-white(href='/anasayfa') Anasayfa
+          li.breadcrumb-item
+            a.text-white(href='/servislerimiz') Servislerimiz
   include includes/service.pug 
