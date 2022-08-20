@@ -3,6 +3,8 @@ const router = express.Router();
 
 const homeController = require('../controllers/homecontroller');
 
-router.get('/home',homeController.getIndex);
+router.get('/anasayfa',homeController.getIndex);
+router.get('/hakkımızda',homeController.getAboutPage);
+router.get('/projelerimiz',homeController.getProjectPage);
 
 module.exports = router;

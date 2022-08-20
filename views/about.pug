@@ -1,0 +1,76 @@
+extends layouts/main-layout.pug
+block content 
+  .container-fluid.page-header.py-5.mb-5.wow.fadeIn(data-wow-delay='0.1s')
+    .container.py-5
+      h1.display-1.text-white.animated.slideInDown Hakkımızda
+      nav(aria-label='breadcrumb animated slideInDown')
+        ol.breadcrumb.text-uppercase.mb-0
+          li.breadcrumb-item
+            a.text-white(href='/home') Anasayfa
+          li.breadcrumb-item
+            a.text-white(href='/about') Hakkımızda
+
+  .container-xxl.py-5
+    .container
+      .row.g-5
+        .col-lg-6.wow.fadeIn(data-wow-delay='0.1s')
+          .about-img
+            img.img-fluid(src='../img/gallery/about.jpg', alt='')
+            img.img-fluid(src='../img/gallery/about.jpg', alt='')
+        .col-lg-6.wow.fadeIn(data-wow-delay='0.5s')
+          h4.section-title Hakkımızda
+          h1.display-5.mb-4 Hayalinizdeki Ev &Idot;&ccedil;in Yarat&imath;c&imath; Bir Mimarl&imath;k Ajans&imath;
+          p
+            | &Idot;z Mimarl&imath;k; mimarl&imath;k , i&ccedil; mimari ve dekorasyon, d&imath;&scedil; tasar&imath;m,
+            | anahtar teslim projeler yapmaktad&imath;r. Ticari (okul, ofis, idari
+            | bina, klinik, ma&gbreve;aza, restaurant, cafe, hastane, d&uuml;&gbreve;&uuml;n salonu..)
+            | ve Bireysel (villa, konut, ba&gbreve; evi, yazl&imath;k ev, konak) projeleri
+            | tasar&imath;m ve takip a&scedil;amalar&imath;n&imath;, d&uuml;nyada ve T&uuml;rkiye de de&gbreve;i&scedil;en ve
+            | geli&scedil;en &scedil;artlara uygun olarak, m&uuml;&scedil;terilerimizin istekleri
+            | do&gbreve;rultusunda ger&ccedil;ekle&scedil;tiriyor. T&uuml;m projeler verimli, kullan&imath;&scedil;l&imath;,
+            | yarat&imath;lan dizayn&imath; vurgulay&imath;c&imath; ve mekan&imath;n estetik &ouml;&gbreve;elerini &ouml;n
+            | plana &ccedil;&imath;karacak &scedil;ekilde fonksiyonel i&scedil;levsellikle harmanlanarak
+            | tasarlanmaktad&imath;r..
+          .d-flex.align-items-center.mb-5
+            .d-flex.flex-shrink-0.align-items-center.justify-content-center.border.border-5.border-primary(style='width: 120px; height: 120px;')
+              h1.display-1.mb-n2(data-toggle='counter-up') 25
+            .ps-4
+            h3 Y&imath;ld&imath;r
+            h3 &Ccedil;al&imath;&scedil;ma
+            h3.mb-0 Tecr&uuml;besi
+          a.btn.btn-primary.py-3.px-5(href='') Detaylı Bilgi
+
+  .container-xxl.py-5
+    .container
+      .row.g-5
+        .col-lg-6.wow.fadeInUp(data-wow-delay='0.1s')
+          h4.section-title Neden Bizi Se&ccedil;melisiniz?
+          h1.display-5.mb-4 Neden Bize G&uuml;venmelisiniz? Hakk&imath;m&imath;zda Daha Fazla Bilgi Edinin!
+          p.mb-4
+            | Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+          .row.g-4
+            .col-12
+              .d-flex.align-items-start
+                img.flex-shrink-0(src='img/icons/icon-2.png', alt='Icon')
+                .ms-4
+                  h3 Tasar&imath;m yakla&scedil;&imath;m&imath;
+                  p.mb-0
+                    | Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.
+            .col-12
+              .d-flex.align-items-start
+                img.flex-shrink-0(src='img/icons/icon-3.png', alt='Icon')
+                .ms-4
+                  h3 Yenilik&ccedil;i &Ccedil;&ouml;z&uuml;mler
+                  p.mb-0
+                    | Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.
+            .col-12
+              .d-flex.align-items-start
+                img.flex-shrink-0(src='img/icons/icon-4.png', alt='Icon')
+                .ms-4
+                  h3 Proje Y&ouml;netimi
+                  p.mb-0
+                    | Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.
+        .col-lg-6.wow.fadeInUp(data-wow-delay='0.5s')
+          .feature-img
+            img.img-fluid(src='../img/gallery/about.jpg', alt='')
+            img.img-fluid(src='../img/gallery/about.jpg', alt='')
